@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
           participantsContainer.appendChild(participantsTitle);
 
           const participantsList = document.createElement("ul");
-          participantsList.className = "participant";
+          participantsList.className = "participants";
 
           details.participants.forEach((participant) => {
             const participantItem = document.createElement("li");
